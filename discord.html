@@ -38,6 +38,24 @@
 	position:relative;
 	top:1px;
 	}
+	
+	.image:hover {
+	-webkit-animation: spin 4s infinite linear;
+	}
+	
+	@-webkit-keyframes spin {
+	0%  {-webkit-transform: rotate(0deg);}
+	100% {-webkit-transform: rotate(360deg);}	
+	}
+	
+	a {
+	text-decoration: none;
+	color: white;
+	}
+	
+	.home:hover {
+	text-decoration: underline;
+	}
 </style>
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -45,13 +63,14 @@
   </head>
   <body>
 	<center>
-	<img src="media/profile.png">
+	<img src="https://steinlarve.de/media/profile.png" class="image" height="512px" width="512px">
 	<h1>𝚂𝚝𝚎𝚒𝚗𝙻𝚊𝚛𝚟𝚎#2354</h1>
 	<br>
 	<h2>MEINE DISCORD SERVER</h2>
 	<br>
 	<a href="http://dc.enten.party" class="button">Enten Server</a>
-	<a href="https://discord.gg/EtaRUC2upp" class="button">Technik Server</a>
+	<a href="https://discord.gg/EtaRUC2upp" class="button">Technik Server</a><br><br><br>
+	<strong><a href="https://steinlarve.de" class="home">≪ Zur Startseite</a></strong>
 	</center>
   </body>
 </html>
