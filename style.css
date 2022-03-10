@@ -11,7 +11,7 @@ body {
 	margin-top: 15px;
 }
 
-a {
+.blacklink {
 	color: black;
 	text-decoration: none;
 }	
@@ -135,4 +135,144 @@ a {
 	font-size: 24pt;
 	color: white;
 	margin-top: 5px;
+}
+
+.surtitle {
+	font-size: 36pt;
+	margin-left: 15px;
+}
+
+.projects {
+	color: white;
+	
+}
+
+.whiteurl {
+	color: white;
+	text-decoration: none; 
+}
+
+.projectbox {
+	justify-items: stretch;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background: #ffcc00;
+	color: black;
+}
+
+.infobutton {
+	background-color:transparent;
+	border-radius:28px;
+	border:5px solid #000000;
+	display:inline-block;
+	cursor:pointer;
+	color:black;
+	font-size:16px;
+	font-weight:bold;
+	padding:10px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+
+.infobutton-white {
+	background-color:transparent;
+	border-radius:28px;
+	border:5px solid white;
+	display:inline-block;
+	cursor:pointer;
+	color:white;
+	font-size:16px;
+	font-weight:bold;
+	padding:10px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+
+.projecttext {
+	padding-left: 15px;
+	padding-right: 4px;
+	width: 100%;
+}
+
+.projectimage {
+	padding-right: 15px;
+	padding-left: 4px;
+}
+
+.center {
+	text-align: center;
+}
+
+.black-link-underline {
+	text-decoration: none;
+	color: black;
+}
+
+.black-link-underline:hover {
+	text-decoration: underline;
+	color: black;
+}
+
+.projectbox-2 {
+	justify-items: stretch;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background: #7289da;
+	color: black;
+}
+
+.projectbox-3 {
+	justify-items: stretch;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background: black;
+	color: white;
+}
+
+.white-link-underline {
+	text-decoration: none;
+	color: white;
+}
+
+.white-link-underline:hover {
+	text-decoration: underline;
+	color: white;
+}
+
+.l1:hover {
+	width: 40px;
+	height: 40px;
+}
+
+.l2:hover {
+	width: 40px;
+	height: 40px;
+}
+
+.l3:hover {
+	width: 40px;
+	height: 40px;
+}
+
+.l4:hover {
+	width: 40px;
+	height: 40px;
+}
+
+.l5:hover {
+	width: 40px;
+	height: 40px;
+}
+
+.l6:hover {
+	width: 40px;
+	height: 40px;
+}
+
+.l7:hover {
+	width: 40px;
+	height: 40px;
 }
