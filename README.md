@@ -1,3 +1,3 @@
 # SteinLarve.de
 
-This Projectz is currently no longer worked on.
+This Project is currently no longer worked on.
